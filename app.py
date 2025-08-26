@@ -73,7 +73,7 @@ HTML_TEMPLATE = '''
 </head>
 <body>
   <div class="container">
-    <img src="https://assets.dio.me/rw07vYB0_8quB08Cujym6m3zIprPSI13LFKcbIPZK8w/f:webp/q:80/L2FydGljbGVzL2NvdmVyLzFjYmNkYWJiLTUzYjQtNDgwMC1hMGFjLTZhYjkzMTlkMTc5NS5qcGc" alt="Foto de perfil">
+    <img src="https://instagram.fjdo12-1.fna.fbcdn.net/v/t51.2885-19/275767039_651024306153991_3981338906045872426_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=instagram.fjdo12-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2QFuBc2do6Cz2IJYgHcjHWwfyXxdB5DxMADYO-And4tjCs4_XZbOWVjWqO5cQc6bJc0&_nc_ohc=2aft-Ar9sP4Q7kNvwFTATzt&_nc_gid=76D6u6UEghxOAakRDYRZ7w&edm=ALGbJPMBAAAA&ccb=7-5&oh=00_AfX_nyAi8Sm5CGuMV2MItFTp2tTgVkNTSuFSEcYH9CBbkQ&oe=68B41D4E&_nc_sid=7d3ac5" alt="Foto de perfil">
     <h1>João Pedro Viana</h1>
     <p>Red Teamer e Pentester, focado em identificar<br> e explorar vulnerabilidades reais em ambientes corporativos através de simulações avançadas de ataques.</p>
     <a href="/redirect/instagram">
@@ -173,4 +173,5 @@ if __name__ == '__main__':
     print("- Ver logs: http://localhost:5000/logs")
 
     app.run(debug=True, host='0.0.0.0', port=5000)
+
 

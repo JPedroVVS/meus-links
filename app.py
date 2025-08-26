@@ -73,7 +73,7 @@ HTML_TEMPLATE = '''
 </head>
 <body>
   <div class="container">
-    <img src="https://scontent.cdninstagram.com/v/t51.2885-19/478083370_1197201488686904_5101485669058469808_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=108&ccb=1-7&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=wQEyqhTkMoAQ7kNvwH6c_jx&_nc_oc=AdnltirsuMY5KRGDxTFNs5CO34BCyJod5N3fLkmg7xjVaiQjAx5xfpZQ9XBd_UPPdCE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&oh=00_AfUQkhbgJruIhDlHRGZcATqmWB-_Jro2xshUqdCdCEIxxA&oe=68AD3048" alt="Foto de perfil">
+    <img src="https://www.dio.me/articles/entendendo-as-diferencas-entre-hackers-crackers-e-outros-termos-de-seguranca-cibernetica" alt="Foto de perfil">
     <h1>João Pedro Viana</h1>
     <p>Red Teamer e Pentester, focado em identificar<br> e explorar vulnerabilidades reais em ambientes corporativos através de simulações avançadas de ataques.</p>
     <a href="/redirect/instagram">
@@ -92,8 +92,8 @@ HTML_TEMPLATE = '''
 
 # URLs das redes sociais
 SOCIAL_URLS = {
-    'instagram': 'https://www.instagram.com/joaopedross.vz/',
-    'github': 'https://github.com/JPedroVVS',
+    'instagram': 'https://www.instagram.com/',
+    'github': 'https://github.com/',
     'linkedin': 'https://www.linkedin.com/'
 }
 
@@ -171,4 +171,5 @@ if __name__ == '__main__':
     print("Servidor iniciado! Acesse:")
     print("- Página principal: http://localhost:5000")
     print("- Ver logs: http://localhost:5000/logs")
+
     app.run(debug=True, host='0.0.0.0', port=5000)

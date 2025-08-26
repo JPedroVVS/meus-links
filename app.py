@@ -73,7 +73,7 @@ HTML_TEMPLATE = '''
 </head>
 <body>
   <div class="container">
-    <img src="https://www.dio.me/articles/entendendo-as-diferencas-entre-hackers-crackers-e-outros-termos-de-seguranca-cibernetica" alt="Foto de perfil">
+    <img src="https://assets.dio.me/rw07vYB0_8quB08Cujym6m3zIprPSI13LFKcbIPZK8w/f:webp/q:80/L2FydGljbGVzL2NvdmVyLzFjYmNkYWJiLTUzYjQtNDgwMC1hMGFjLTZhYjkzMTlkMTc5NS5qcGc" alt="Foto de perfil">
     <h1>João Pedro Viana</h1>
     <p>Red Teamer e Pentester, focado em identificar<br> e explorar vulnerabilidades reais em ambientes corporativos através de simulações avançadas de ataques.</p>
     <a href="/redirect/instagram">
@@ -173,3 +173,4 @@ if __name__ == '__main__':
     print("- Ver logs: http://localhost:5000/logs")
 
     app.run(debug=True, host='0.0.0.0', port=5000)
+
